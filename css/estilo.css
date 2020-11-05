@@ -1,0 +1,254 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	size:14px;
+	color:#FFF;
+	}
+	
+#todo{
+	position:relative;
+	width:1000px;
+	height:600px;
+	margin:0 auto;
+	z-index:0;
+	}	
+	
+#pantalla1{
+	position: absolute;
+	background:url(../img/marquesina_principal.gif);
+	width: 1000px;
+	height:600px;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+    }
+	
+#pantalla2{
+	position: absolute;
+	background:#CDCDCD;
+	width: 1000px;
+	height:600px;
+	left: 0px;
+	top: 0px;
+	display:none;
+    }	
+	
+#pantalla3{
+	position: absolute;
+	background:#CDCDCD;
+	width: 1000px;
+	height:600px;
+	left: 0px;
+	top: 0px;
+	display:none;
+    }
+	
+#pantalla4{
+	position: absolute;
+	background:#CDCDCD;
+	width: 1000px;
+	height:600px;
+	left: 0px;
+	top: 0px;
+	display:none;
+    }
+	
+#pantalla5{
+	position: absolute;
+	background:#CDCDCD;
+	width: 1000px;
+	height:600px;
+	left: 0px;
+	top: 0px;
+	display:none;
+    }
+	
+#pantalla6{
+	position: absolute;
+	background:#CDCDCD;
+	width: 1000px;
+	height:600px;
+	left: 0px;
+	top: 0px;
+	display:none;
+    }				
+
+#pantalla7{
+	position: absolute;
+	background:#ffffff;
+	/*background:#F0E259;*/  /*Este es el color que tenías*/
+	width: 1000px;
+	height:600px;
+	left: 0px;
+	top: 0px;
+	display:none;
+    }				
+
+#pantalla8{
+	position: absolute;
+	background:#5F14E8;
+	width: 1000px;
+	height:600px;
+	left: 0px;
+	top: 0px;
+	display:none;
+    }				
+
+#pantalla9{
+	position: absolute;
+	background:#25B6DB;
+	width: 1000px;
+	height:600px;
+	left: 0px;
+	top: 0px;
+	display:none;
+    }
+	
+#pantalla10{
+	position: absolute;
+	background:#E119C1;
+	width: 1000px;
+	height:600px;
+	left: 0px;
+	top: 0px;
+	display:none;
+    }
+	
+#pantalla11{
+	position: absolute;
+	background:#CF156C;
+	width: 1000px;
+	height:600px;
+	left: 0px;
+	top: 0px;
+	display:none;
+    }		 
+					
+	
+#bot_elearning{
+	position: absolute;
+	background: url(../img/bot_elearning.png)no-repeat;
+	width: 145px;
+	height: 25px;
+	left: 301.5px;
+	top: 200px;
+	cursor: pointer;
+	z-index:2;
+	}
+	
+		#bot_elearning:hover{
+			background:url(../img/bot_elearning_hover.png);
+			}
+
+#bot_ilustracion{
+	position: absolute;
+	background:url(../img/bot_ilustracion.png) no-repeat;
+	width: 145px;
+	height: 25px;
+	left: 301.5px;
+	top: 300px;
+	cursor: pointer;
+	}
+	
+		#bot_ilustracion:hover{
+			background:url(../img/bot_ilustracion_hover.png);
+			}
+		
+#bot_diseno{
+	position: absolute;
+	background:url(../img/bot_diseno.png);
+	width: 160px;
+	height: 25px;
+	left: 301.5px;
+	top: 400px;
+	cursor: pointer;
+	}
+	
+		#bot_diseno:hover{
+			background:url(../img/bot_diseno_hover.png);	
+			}
+					
+
+#regresa1, #regresa2, #regresa3, #regresa4, #regresa5, #regresa6, #regresa7, #regresa8, #regresa9, #regresa10{
+	position:absolute;
+	left:300px;
+	top:580px;
+	}	
+	
+#inicio1, #inicio2, #inicio3, #inicio4, #inicio5, #inicio6, #inicio7, #inicio8, #inicio9, #inicio10{
+	position:absolute;
+	left:450px;
+	top:580px;
+	}	
+		
+#avanza1, #avanza2, #avanza3, #avanza4, #avanza5, #avanza6, #avanza7, #avanza8, #avanza9, #avanza10{
+	position:absolute;
+	left:600px;
+	top:580px;
+	}
+			
+.bot_anterior{
+	position:absolute;
+	background:url(../img/bot_anterior.png);
+	width: 80px;
+	height: 20px;
+	z-index: 1;
+	cursor: pointer;
+     }
+	
+		.bot_anterior:hover{
+		background:url(../img/bot_anterior_hover.png) no-repeat;
+	 		}
+			
+.bot_inicio{
+	position:absolute;
+	background:url(../img/bot_inicio.png);
+	width: 80px;
+	height: 20px;
+	z-index: 1;
+	cursor: pointer;
+     }
+	
+		.bot_inicio:hover{
+		background:url(../img/bot_inicio_hover.png) no-repeat;
+	 		}
+			
+.bot_siguiente{
+	position:absolute;
+	background:url(../img/bot_siguiente.png);
+	width: 80px;
+	height: 20px;
+	z-index: 1;
+	cursor: pointer;
+     }
+	
+		.bot_siguiente:hover{
+		background:url(../img/bot_siguiente_hover.png) no-repeat;
+	 		}
+	
+
+	
+.sinsubrayar {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	color:#3e6396;
+	cursor:pointer;
+}
+
+.centrar_video{
+	text-align: center;
+	width: 		100%;
+	height: 	100%;
+	margin: 	0 auto;
+	justify-content: center;
+}
+
+video{
+	width: 80%;
+	margin-top: 40px;
+}
+
+#video_peq{
+	width: 70%;
+	margin-top: 40px;
+}
